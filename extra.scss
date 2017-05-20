@@ -28,7 +28,7 @@ body {
 	background-color: hsla(0,0%,0%,.5);
 }
 .md-nav__link[data-md-state=blur] {
-	color: rgba(160,160,160,.54);
+	color: rgba(230,230,230,.54);
 }
 .md-typeset h1 {
 	color: #ccc;
@@ -56,6 +56,11 @@ a footnote-ref::before {
 }
 .md-footer-copyright {
 	color: #666;
+}
+.md-typeset blockquote {
+    padding-left: 1.2rem;
+    border-left: .4rem solid rgba(230,230,230,.26);
+    color: rgba(230,230,230,.54);
 }
 @media only screen and (max-width: 76.1875em) {
 	html .md-nav--primary .md-nav__title--site {
