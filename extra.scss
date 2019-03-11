@@ -1,5 +1,6 @@
 $link_color: #10cfff;
 $background_color1: #333;
+$background_color2: #424246;
 
 
 @media only screen and (max-width: 76.1875em) {
@@ -24,8 +25,8 @@ body {
 }
 .md-typeset code {
 	color: #ccc;
-	box-shadow: 0.29412em 0 0 hsla(0,0%,0%,.5), -0.29412em 0 0 hsla(0,0%,0%,.5);
-	background-color: hsla(0,0%,0%,.5);
+	box-shadow: 0.29412em 0 0 $background_color2, -0.29412em 0 0 $background_color2;
+	background-color: $background_color2;
 }
 .md-nav__link[data-md-state=blur] {
 	color: rgba(230,230,230,.54);
@@ -61,6 +62,21 @@ a footnote-ref::before {
     padding-left: 1.2rem;
     border-left: .4rem solid rgba(230,230,230,.26);
     color: rgba(230,230,230,.54);
+}
+.md-typeset .codehilite code, .md-typeset .codehilite pre, .md-typeset .highlight code, .md-typeset .highlight pre {
+    color: #fff;
+}
+.md-clipboard:before {
+    transition: color .25s,opacity .25s;
+    transition-property: color, opacity;
+    transition-duration: 0.25s, 0.25s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+    color: rgba(240,240,240,.07);
+    content: "\E14D";
+}
+.md-typeset .superfences-tabs {
+    background-color: $background_color2;
 }
 @media only screen and (max-width: 76.1875em) {
 	html .md-nav--primary .md-nav__title--site {

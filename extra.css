@@ -1,7 +1,6 @@
 @media only screen and (max-width: 76.1875em) {
   .md-nav {
     background-color: #000; } }
-
 .md-header {
   background-color: #000; }
 
@@ -19,8 +18,8 @@ body {
 
 .md-typeset code {
   color: #ccc;
-  box-shadow: 0.29412em 0 0 rgba(0, 0, 0, 0.5), -0.29412em 0 0 rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.5); }
+  box-shadow: 0.29412em 0 0 #424246, -0.29412em 0 0 #424246;
+  background-color: #424246; }
 
 .md-nav__link[data-md-state=blur] {
   color: rgba(230, 230, 230, 0.54); }
@@ -57,9 +56,27 @@ a footnote-ref::before {
   border-left: 0.4rem solid rgba(230, 230, 230, 0.26);
   color: rgba(230, 230, 230, 0.54); }
 
+.md-typeset .codehilite code, .md-typeset .codehilite pre, .md-typeset .highlight code, .md-typeset .highlight pre {
+  color: #fff; }
+
+.md-clipboard:before {
+  transition: color .25s,opacity .25s;
+  transition-property: color, opacity;
+  transition-duration: 0.25s, 0.25s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+  color: rgba(240, 240, 240, 0.07);
+  content: "\E14D"; }
+
+.md-typeset .superfences-tabs {
+  background-color: #424246; }
+
 @media only screen and (max-width: 76.1875em) {
   html .md-nav--primary .md-nav__title--site {
     background-color: #000; }
+
   html .md-nav--primary .md-nav__title ~ .md-nav__list {
-    background: linear-gradient(180deg, #000 10%, transparent), linear-gradient(180deg, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.07) 35%, transparent 60%);
+    background: linear-gradient(180deg, #000 10%, rgba(0, 0, 0, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.07) 35%, transparent 60%);
     background-color: #333; } }
+
+/*# sourceMappingURL=extra.css.map */
