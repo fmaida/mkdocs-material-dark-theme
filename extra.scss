@@ -1,6 +1,6 @@
 $link_color: #10cfff;
 $background_color1: #333;
-$background_color2: #424246;
+$background_color2: #272722;
 
 
 @media only screen and (max-width: 76.1875em) {
@@ -77,6 +77,9 @@ a footnote-ref::before {
 }
 .md-typeset .superfences-tabs {
     background-color: $background_color2;
+}
+div.superfences-content pre {
+    border-top: 1px solid $background_color1;
 }
 @media only screen and (max-width: 76.1875em) {
 	html .md-nav--primary .md-nav__title--site {
