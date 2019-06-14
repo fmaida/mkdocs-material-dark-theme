@@ -34,7 +34,7 @@ body {
 .md-typeset h1 {
 	color: #ccc;
 }
-a, .md-typeset a, md-nav__link, md-nav__link:hover {
+.md-typeset a, md-nav__link, md-nav__link:hover {
 	color: $link_color;
 }
 a footnote-ref::before {
