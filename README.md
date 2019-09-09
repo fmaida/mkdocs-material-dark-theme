@@ -2,7 +2,7 @@
 
 External SCSS/CSS file that can change the appearance of [mkdocs-material theme](https://squidfunk.github.io/mkdocs-material/) and render it in dark colors.
 
-To have a proper syntax highlight don't forget to add this code to your ´mkdocs.yml` file:
+To have a proper syntax highlight don't forget to add this code to your `mkdocs.yml` file:
 
 ```yaml
 
