@@ -8,8 +8,8 @@ To have proper syntax highlighting, don't forget to add this code to your `mkdoc
 
 markdown_extensions:
     - codehilite:
-            guess_lang: False
-            use_pygments: True
-            noclasses: True
-            pygments_style: monokai
+        guess_lang: False
+        use_pygments: True
+        noclasses: True
+        pygments_style: monokai
 ```
